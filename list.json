@@ -1,0 +1,15 @@
+{
+        "vendor": {
+            "contact": "Melio",
+            "email": "test@melio.com",
+            "phone": "1234567890",
+            "validate":"AutoMeliotest@melio.com1234567890",
+            "bussines": "Auto_11_4_2024_16:16:58",
+            "wrong_email": "test"
+        },
+        
+        "error": {
+            "business": "Company already exists, please choose a different name",
+            "email": "Enter a valid email address."
+        }
+  }

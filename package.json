@@ -1,0 +1,29 @@
+{
+  "name": "melio-web",
+  "version": "1.0.0",
+  "description": "Automated software testing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium"
+  },
+  "author": "Martin Rosenfeld",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^1.22.3",
+    "appium-base-driver": "^7.11.3",
+    "date-fns": "^3.6.0",
+    "playwright-chromium": "^1.25.0",
+    "prettier": "^2.5.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.25.0",
+    "@reportportal/agent-js-playwright": "^5.1.4",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "allure-commandline": "^2.20.1",
+    "dotenv": "^16.0.3",
+    "experimental-allure-playwright": "^0.0.3",
+    "playwright-i18next-fixture": "^1.0.0",
+    "playwright-slack-report": "^1.1.16",
+    "ts-node": "^10.9.1"
+  }
+}
