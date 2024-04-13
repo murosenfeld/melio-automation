@@ -5,7 +5,7 @@ import { VendorPage } from '../../../page-objects/vendorPage'
 import { format } from 'date-fns';
 import mode  from '../../../list.json'
 
-test.describe.configure({ mode: 'parallel' });
+test.describe.configure({ mode: 'serial' });
 
 test.describe('Main - Page - Dashboard Test', () => {
     let homePage: HomePage
